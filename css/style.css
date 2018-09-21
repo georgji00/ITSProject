@@ -1,5 +1,5 @@
 .sec1{
-	margin-top: -20px;
+	margin-top: 51px;
 	width: 101%;
 	height: 50vh;
 	background: url('../images/faqs.jpg');
@@ -8,7 +8,7 @@
 }
 
 .sec2{
-	margin-top: -20px;
+	margin-top: 51px;
 	width: 101%;
 	height: 50vh;
 	background: url('../images/about.jpg');
@@ -16,7 +16,7 @@
 	background-position: center;
 }
 .sec3{
-	margin-top: -20px;
+	margin-top: 51px;
 	width: 101%;
 	height: 50vh;
 	background: url('../images/contact.jpg');
@@ -30,6 +30,7 @@ footer.page-footer{
   width: 101%;
 }
 .row p{
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -41,7 +42,8 @@ footer.page-footer{
  	vertical-align: bottom;
 }
 .carousel-inner{
-	margin-top:52px;
+	
+	margin-top:51px;
 }
 .footer {
    position: fixed;
@@ -76,4 +78,39 @@ border:1px solid #000;
 }
 .modal {
     overflow-y:auto;
+}
+
+.none{
+  display:none;
+}
+.flip--btn{
+  cursor:pointer;
+  float:left; 
+  margin: 10px;
+  color:#131212;
+  margin-top: 0px;
+  
+}
+.input-append{
+  float:left; width:100%; margin-bottom:10px;
+}
+.front_print,.back_print{
+	position: absolute;
+    top: 130px;
+    left: 165px;
+    z-index: 10;
+    width: 200px;
+    height: 330px;
+}
+.front_print:hover{
+	border:1px solid #000;
+}
+.back_print:hover{
+	border:1px solid #000;
+}
+.h5, h5{
+	color: black;
+	margin-left: px;
+	font-weight: bold;
+
 }
