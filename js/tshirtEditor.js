@@ -265,12 +265,6 @@ var line4;
 		         canvas.renderAll();
 	        }
 	    );
-	   
-	   $('.color-preview').click(function(){
-		   var color = $(this).css("background-color");
-		   document.getElementById("shirtDiv").style.backgroundColor = color;		   
-	   });
-	   
 	   $('#flip').click(
 		   function() {			   
 			   	if ($(this).attr("data-original-title") == "Show Back View") {
